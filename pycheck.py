@@ -1,5 +1,8 @@
-x=112
-if x>100:
-    print("more than 100")
-else :
-    print("no more than you think")
+x=int(input("enter the number:"))
+print("value of x is:",x)
+if x>10:
+    print("large")
+elif x>1:
+    print("small")
+else:
+    print("dont know")
